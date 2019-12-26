@@ -1,0 +1,155 @@
+#search .loog{
+    width: 258px;
+    height: 105px;
+    margin-top:-32px ;
+    border-bottom:1px solid #f60 ;
+}
+#search>P{
+    color: #666666;
+    font-size: 28px;
+    line-height: 84px;
+    text-indent: 20px;
+}
+#search{
+    height: 74px;
+}
+/* 登陆 */
+#enter{
+    position: relative;
+    overflow: hidden;
+}
+#enter>img{
+    margin-left:-364px;
+
+}
+#enter .ent{
+    width: 350px;
+    height: 370px;
+    position: absolute;
+    top: 64px;
+    right: 180px;
+    background: #fff;
+}
+#enter .deng{
+    height: 56px;
+    width: 350px;
+    border-bottom: 1px solid #ccc;
+}
+#enter .deng>p{
+    float: left;
+    width: 174px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-right:1px solid #ccc ;
+    margin-top:16px ;
+    color:#666666;
+    cursor: pointer;
+    font-size: 20px;
+}
+#enter .deng>.to{
+    color: #f60;
+}
+#enter .im>img{
+    margin: 50px 00px 0px 20px;
+}
+#enter .im span{
+    color: #666;
+    display: inline-block;
+    margin: 30px 84px;
+}
+    /* 登录界面 */
+#enter .sub>div{
+    width: 270px;
+    height: 38px;
+    margin: auto;
+    margin-top: 40px;
+}
+#enter .sub>div:first-child{ 
+    border: 1px solid #ccc;
+    position: relative; 
+    background: url(../images/register3_2.gif) no-repeat 0px 0px;
+}
+#enter .sub>div:first-child>img{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 2px;
+}
+#enter .sub>div:nth-child(2){
+    border: 1px solid #ccc;
+    margin-top:20px ;
+    background: url(../images/register3_3.gif) no-repeat 0px 0px;
+}
+#enter .sub input{
+    width: 230px;
+    height: 38px;
+    border: none;
+    float: right;
+}
+#enter .sub>div:nth-child(3){
+   margin-top:10px ;
+}
+#enter .sub>div:nth-child(3)>input{
+    width: 14px;
+    height: 14px;
+    float: left;
+}
+#enter .sub>div:nth-child(3)>span{
+    margin: 0px 120px 0px 10px;
+    color: #4c4c4c;
+    font-size: 14px;
+}
+#enter .sub>div:nth-child(3)>a{
+    color: #4c4c4c;
+    font-size: 14px;
+}
+#enter .sub>div:nth-child(4){
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    text-align:center;
+    margin-top: 5px;
+    background: #f60;
+    color: #fff;
+    cursor: pointer;
+}
+#enter .sub>div:nth-child(5){
+    margin: 30px 0px;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
+    border-top:2px solid #ccc ;
+}
+#enter .sub>div:nth-child(5)>a{
+    display: inline-block;
+    width: 116px;
+    height: 50px;
+    font-size: 16px;
+    color: #f60;
+    background: url(../images/register3_1.gif) no-repeat 0px 18px;
+}
+
+/* 底部 */
+.firm{
+    margin-top:30px ;
+}
+.firm>span{
+    margin: 13px;
+    color: #343434;
+  
+  }
+.firm>span:first-child{
+      margin-left:170px ;
+    }
+.lastye{
+        height: 150px;
+  
+    }
+.lastye>p{
+      text-align: center;
+      line-height: 100px;
+    }

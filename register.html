@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    
+    <!-- 顶部 -->
+    <div id="rof">
+            <div class="container greet">
+                欢迎光临 <a href="#">乐购商场</a> ，请 &nbsp;<a href="#"> 登录</a>/ <a href="#"> 注册</a>
+            </div>
+    </div>
+    <!-- 搜索 -->
+    <div id="search" class="container clearfix">
+        <div class="loog fl">
+            <a href="#"><img src="./images/register1_2.jpg" alt="乐购商城"></a>
+        </div>
+        <p>欢迎登陆</p>
+    </div>
+    <!-- 登陆 -->
+    <div id="enter">
+    <img src="./images/register1_1.jpg" alt="">
+    <div class="ent">
+        <div class="deng clearfix">
+            <p class="to">扫码登陆</p>
+            <p>密码登陆</p>
+        </div>
+        <div class="ssd">
+              <!-- 扫码界面已隐藏 -->
+            <div class="im">
+            <img src="./images/register2_1.png" alt="">
+            <img src="./images/register2_2.png" alt="">
+            <div>
+                <span>打开手机版&nbsp;&nbsp;乐购APP&nbsp;&nbsp;&nbsp;扫一扫</span>
+            </div>
+            </div>
+            <!-- 登录界面 -->
+            <div class="sub" style="display: none;">
+                <div> <input type="text" name="mia"><img src="./images/register3_4.gif" alt=""></div>
+               <div> <input type="password" name="mia"></div>
+               <div> <input type="checkbox"><span>自动登录</span><a href="#">忘记密码</a></div>
+               <div>登&nbsp;&nbsp;陆</div>
+               <div><a href="enroll.html">立即注册</a></div>
+    
+            </div>
+
+        </div>
+    </div>
+     </div>    
+     <!-- 底部  -->
+     <div class="container firm clearfix">
+            <span>公司简介</span>
+            <span>|</span>
+            <span>公司简介</span>
+            <span>|</span>
+            <span>公司简介</span>
+            <span>|</span>
+            <span>公司简介</span>
+            <span>|</span>
+            <span>公司简介</span>
+            <span>|</span>
+            <span>公司简介</span>
+            <span>|</span> 
+             <span>公司简介</span>
+            <span>|</span>
+            <span>公司简介</span>
+        </div>
+        <div class="lastye container">
+            <p>Copyright&nbsp;(C)&nbsp;乐购网&nbsp;2004-2016.&nbsp;All&nbsp;Rights&nbsp;Reserved</p>
+        </div>
+
+
+    <script src="./js/jquery-1.11.3.min.js"></script>
+
+    <script>
+   
+	$('.deng>p').on('click',function(){
+		$(this).siblings().removeClass('to')
+		$(this).addClass('to')
+		let index=$(this).index()
+		$('.ssd>div').hide()		
+		$('.ssd>div').eq(index).show()
+	})
+    
+    
+    
+    
+    </script>
+</body>
+</html>

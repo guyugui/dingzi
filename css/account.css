@@ -1,0 +1,199 @@
+#case>button{
+    right: -28px;
+}
+#search .wei{
+    margin:58px -370px 0px 0px ;
+    color: #b5b5b5;
+}
+#search .wei>select{
+    width: 170px;
+    height: 20px;
+    line-height: 20px;
+    color: #4d4d4d;
+    margin-left:10px ;
+}
+#search .loog{
+    width: 258px;
+    height: 106px;
+    margin-top:-32px ;
+}
+/* 请核对订单信息 */
+#check>p{
+    margin-top: 20px;
+    color: #666;
+    font-size: 18px;
+}
+#check .shou{
+    text-indent: 20px;
+    background:#f2f2f2 ;
+    height: 60px;
+    color: #4d4d4d;
+    font:16px/60px '微软雅黑';
+}
+
+#check .shou>p{
+    float: right;
+    font:16px/60px '微软雅黑';
+    color:#0f80e8;
+    margin-right:10px ;
+    cursor: pointer;
+}
+#check .yun>div{
+    text-align: center;
+    width: 110px;
+    height: 30px;
+    float: left;
+    margin:20px 40px 40px 40px ;
+    color: #4d4d4d;
+    font: 16px/30px '微软雅黑';
+    border: 2px solid #ccc;
+}
+#check .yun>P{
+    float: left;
+    width: 300px;
+    height: 30px;
+    margin:20px 40px 40px 40px ;
+    color: #4d4d4d;
+    font: 16px/30px '微软雅黑';
+}
+#check .yun>div:last-child{
+    width: 120px;
+    height: 30px;
+    background: #989898;
+    font: 16px/30px '微软雅黑';
+    color: #fff;
+    text-align: center;
+    margin: 20px 160px;
+}
+
+#check .yun>span{
+    display: inline-block;
+    margin:20px 40px 40px 40px ;
+    color: #4d4d4d;
+    font: 16px/30px '微软雅黑';
+}
+#check .DC>div:first-child>h1{
+    color: #4d4d4d;
+    font-size: 14px;
+     margin: 20px 0px 30px 20px;
+}
+#check .DC>div:first-child{
+    float: left;
+    width: 460px;
+    height: 260px;
+}
+
+#check div.too{
+    background: url(../images/details1_2.gif) no-repeat  96px 18px ;
+    border: 2px solid #f60;
+}
+#check .DC>div:first-child>div{
+    text-align: center;
+    width: 110px;
+    height: 30px;
+    float: left;
+    margin:0px 300px 40px 40px ;
+    color: #4d4d4d;
+    font: 16px/30px '微软雅黑';
+    border: 2px solid #ccc;
+}
+#check .DC>div:first-child>div.too{
+    border: 2px solid #f60;
+}
+#check .DC>div:first-child>p{
+   display: inline-block;
+   color: #a0a0a0;
+   font-size: 16px;
+   line-height: 30px;
+}
+#check .DC>div:first-child span{
+    color: #4c4c4c;
+    font-size: 16px;
+}
+#check .DC>div:first-child a{
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    color: #308aea;
+}
+#check .lu{
+    width: 720px;
+    height: 240px;
+    background: #f2f2f2;
+    margin:10px 0px 0px 20px;
+
+}
+#check .lu>img{
+    margin: 10px 50px 0px 20px;
+    border: 1px solid #e6e6e6;
+}
+#check .lu>p{
+    float: left;
+    margin: 50px 40px;
+    color: #4f4f4f;
+    font-size: 16px;
+}
+#check .lu>p:nth-child(3){
+    color: #f10c0f;
+}
+#check .fap{
+    height: 100px;
+    border-top: 1px solid #ccc;
+}
+#check .fap>P{
+    color: #4d4d4d;
+    font: 16px/40px '微软雅黑';
+    text-indent: 20px;
+}
+#check .fap>P:nth-child(2){
+    margin-right:30px ;
+}
+#check .fap>a{
+    font: 16px/40px '微软雅黑';
+    color: #308aea;
+}
+#check .pe{
+    color: #6c6c6c;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 50px;
+}
+#check .pe>input:nth-child(2){
+    width: 340px;
+    height: 20px;
+}
+#check .pe>span{
+    float: left;
+}
+#check .pe>input{
+    float: left;
+    margin-right: 30px;
+    margin-top: 26px;
+}
+#check .sp{
+    height: 60px;
+    border: 1px solid #ccc;
+}
+#check .sp>P{
+    float: left;
+    color: #ff6600;
+    font: 16px/60px '微软雅黑';
+    margin: 0px 30px;
+}
+#check .sp>P>span{
+    color: #808080;
+    font: 16px/60px '微软雅黑';
+}
+#check .sp>P:last-child{
+    float: right;
+}
+
+#check .pe>div{
+    width: 140px;
+    height: 60px;
+    color: #fff;
+    background: #f60;
+    text-align: center;
+    font: 24px/60px '微软雅黑';
+    cursor: pointer;
+}

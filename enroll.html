@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/enroll.css">
+</head>
+<body>
+        
+     <!-- 顶部 -->
+     <div id="rof">
+            <div class="container greet">
+                欢迎光临 <a href="index.html">乐购商场</a> ，请 &nbsp;<a href="register.html"> 登录</a>/ <a href="enroll.html"> 注册</a>
+            </div>
+    </div>
+    <!-- 搜索 -->
+    <div id="search" class="container clearfix">
+        <div class="loog fl">
+            <a href="#"><img src="./images/register1_2.jpg" alt="乐购商城"></a>
+        </div>
+        <p>欢迎登陆</p>
+        <h1>已有账号，请<span>登陆</span></h1>
+    </div>
+    <div class="pian"></div>
+
+    <!-- 用户注册 -->
+    <div id="esur" class="clearfix">
+        <form action="asdasfa" class="yhzc">
+        <div> <span>用户注册</span><input type="text" placeholder="您的账户名和登录名" id="yh"></div>
+        <div><span>设置密码</span><input type="password" placeholder="前两个字符为字母的七位数密码" id="sz"></div>
+        <div><span>确认密码</span><input type="password" placeholder="再次输入密码" id="sz1"></div>
+        <div><span>中国+86</span><input type="text" placeholder="建议使用常用手机号" id="sj"></div>
+        <div><span>验证码</span> <div><img src="./images/enroll9_1.jpg" alt=""></div><input type="text" placeholder="请输入验证码"></div>
+        <div><span>手机验证码</span><div>获取验证码</div><input type="text" placeholder="请输入手机验证码"> </div>
+       <div> <input type="checkbox"><p>我已同意并阅读<span>《乐购用户注册协议》</span></p></div>
+       <div> <a href="member.html">立即注册</a> </div>
+    </form>
+    </div>
+    <div class="xian"></div>
+    <!-- 底部  -->
+    <div class="container firm clearfix">
+        <span>公司简介</span>
+        <span>|</span>
+        <span>公司简介</span>
+        <span>|</span>
+        <span>公司简介</span>
+        <span>|</span>
+        <span>公司简介</span>
+        <span>|</span>
+        <span>公司简介</span>
+        <span>|</span>
+        <span>公司简介</span>
+        <span>|</span> 
+            <span>公司简介</span>
+        <span>|</span>
+        <span>公司简介</span>
+    </div>
+    <div class="lastye container">
+        <p>Copyright&nbsp;(C)&nbsp;乐购网&nbsp;2004-2016.&nbsp;All&nbsp;Rights&nbsp;Reserved</p>
+    </div>
+
+
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script>
+        $('#yh').on('input',function(){
+            if($(this).val().length<6){
+                $(this).parent().css('border','1px solid red')
+            }else{
+                $(this).parent().css('border','1px solid #ccc')
+            }
+        })
+        $('#sz').on('input',function(){
+            var reg=/^[A-z][a-z]\d{5}$/
+            if(!reg.test($(this).val())){
+                $(this).parent().css('border','1px solid red')
+            }else{
+                $(this).parent().css('border','1px solid #ccc')
+            }
+        })
+        $('#sz1').on('input',function(){
+            if($(this).val()!=$('#sz').val()||$(this).val().length<8){
+                $(this).parent().css('border','1px solid red')
+            }else{
+                $(this).parent().css('border','1px solid #ccc')
+            }
+        })
+        $('#sj').on('input',function(){
+            var reg=/^1[356789]\d{9}$/
+            if(!reg.test($(this).val())){
+                $(this).parent().css('border','1px solid red')
+            }else{
+                $(this).parent().css('border','1px solid #ccc')
+            }
+        })
+    
+    
+    
+    
+    </script>
+
+
+
+
+</body>
+</html>

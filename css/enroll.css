@@ -1,0 +1,134 @@
+#search .loog{
+    width: 258px;
+    height: 105px;
+    margin-top:-32px ;
+    border-bottom:1px solid #f60 ;
+}
+#search>P{
+    color: #666666;
+    font-size: 28px;
+    line-height: 84px;
+    text-indent: 20px;
+    float: left;
+}
+#search{
+    height: 74px;
+    box-sizing: border-box;
+}
+#search>h1{
+    font-size: 20px;
+    color: #a6a6a6;
+    text-align: right;
+    line-height: 116px;
+}
+#search>h1>span{
+    color: #737373;
+}
+.pian{
+    box-shadow: 0px 2px 5px #000;
+    border-bottom:2px solid #ccc ;
+}
+/* 用户注册 */
+.yhzc>div{
+    margin:50px auto;
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+  
+}
+.yhzc>div>span{
+    float: left;
+    color: #656565;
+    margin-left:10px ;
+    font: 20px/40px '微软雅黑';
+}
+.yhzc>div>input{
+    font: 14px/40px '微软雅黑';
+    color: black;
+    width: 270px;
+    height: 36px;
+    border: none;
+    outline: none;
+    float: right;
+}
+.yhzc>div>div{
+    float: right;
+}
+.yhzc>div:nth-child(5)>div{
+    margin: 1px 1px;
+    width: 126px;
+    height: 36px;
+    background: #1b83e6;
+    color: #fff;
+    text-align: center;
+    font: 18px/36px '微软雅黑';
+    cursor: pointer;
+}
+.yhzc>div:nth-child(5)>input{
+    width: 140px;
+}
+.yhzc>div:nth-child(6)>input{
+    width: 140px;
+}
+.yhzc>div:nth-child(6){
+    margin-bottom:0px ;
+}
+.yhzc>div:nth-child(6)>div{
+    margin: 2px 1px;
+    width: 126px;
+    height: 36px;
+    background: #e6e6e6;
+    color: #4d4d4d;
+    text-align: center;
+    font: 18px/36px '微软雅黑';
+    cursor: pointer;
+}
+.yhzc>div:nth-child(7){
+    border: none;
+    margin: 10px auto;
+}
+.yhzc>div:nth-child(7)>input{
+  float: left;
+  width: 16px;
+  height: 16px;
+}
+
+.yhzc>div:nth-child(7)>p{
+    color: #4d4d4d;
+}
+.yhzc>div:nth-child(7)span{
+    color: #f60;
+}
+.yhzc>div:nth-child(8){
+    margin: 0px auto;
+    background: #ff6600;
+    color: #fff;
+    font: 28px/40px '微软雅黑';
+    text-align: center;
+    cursor: pointer;
+}
+/* 底部 */
+.firm{
+    margin-top:30px ;
+}
+.firm>span{
+    margin: 13px;
+    color: #343434;
+  
+  }
+.firm>span:first-child{
+      margin-left:170px ;
+    }
+.lastye{
+        height: 150px;
+  
+    }
+.lastye>p{
+      text-align: center;
+      line-height: 100px;
+    }
+
+    .xian{
+        border-bottom: 2px solid #ccc;
+        margin: 40px 0px 24px 0px;
+    }

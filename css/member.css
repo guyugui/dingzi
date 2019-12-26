@@ -1,0 +1,234 @@
+#search>.loog img{
+    margin-top: -32px;
+}
+#search>h1{
+    color: #999;
+    font: 22px/84px '微软雅黑';
+    text-indent: 16px;
+}
+#search>p{
+    text-align: center;
+    width: 80px;
+    height: 36px;
+    float: left;
+    color: #656565;
+    font: 16px/36px '微软雅黑';
+    margin: 20px 0px 0px 170px;
+ }
+ #search>p.shy{
+     background: #ff6600;
+     color: #fff;
+ }
+ #search>p:nth-child(4){
+     margin: 20px 60px;
+ }
+ #search>p:nth-child(5){
+    margin: 20px 0px;
+}
+
+
+
+
+/* 上面是顶部的 */
+#prerogative{
+    position: relative;
+}
+#prerogative>img{
+    overflow: hidden;
+    max-width: 1360px;
+    height: 500px;
+    margin-top:-11px ;
+}
+#prerogative .nei{
+    position: absolute;
+    height: 488px;
+    top: 0px;
+    left: 80px;
+}
+#prerogative .nei>div{
+    float: left;
+}
+#prerogative .huiy{
+    width: 230px;
+    height: 486px;
+    background: #fff;
+    margin-right:10px ;
+}
+#prerogative .huiy>div:first-child{
+    background: #ff6600;
+    font: 18px/36px '微软雅黑';
+    height: 36px;
+    color: #fff;
+    text-indent: 10px;
+    margin-top:8px;
+}
+#prerogative .tiant>h1{
+    font-size: 18px;
+    color: #000;
+    line-height: 50px;
+}
+#prerogative .tiant>span{
+    color: #4d4d4d;
+}
+#prerogative .yi{
+    margin-top:34px ;
+    margin-left: 10px;
+}
+#prerogative .yi>img{
+    width: 110px;
+    height: 104px;
+}
+/* 轮播图 */
+:root{ 
+	--mywidth: 732px;
+    --myheight: 486px;
+}
+/* 汽车 */
+#car{
+    background: #f5f5f5;
+    height: 194px;
+}
+#car>.qic>div{
+    background: #fff;
+    width: 280px;
+    height: 140px;
+    float: left;
+}
+#car>.qic h1{
+    font: 20px/60px '微软雅黑';
+    color: #333;
+    text-indent: 20px;
+}
+#car>.qic img{
+    width: 150px;
+    height: 120px;
+}
+#car>.qic p{
+    color: #797979;
+    text-indent: 20px;
+}
+#car>.qic>div{
+    margin: 20px 10px;
+}
+
+/* 乐豆兑换券 */
+.recommend{
+    margin-top:30px ;
+}
+ .recommend>p{
+     width: 190px;
+     height: 50px;
+     text-align: center;
+    background: #f60;
+    color: #fff;
+    font: 24px/50px '微软雅黑';
+}
+.recommend>.across{
+    border: 3px solid #f60;
+    margin-bottom:-1px ;
+}
+.recommend>.mouse{
+    margin-left:6px ;
+}
+
+.recommend>.mouse>div{
+    width: 210px;
+    height: 290px;
+    border: 2px solid #ccc;
+    margin:14px 24px 10px 0px;
+    float: left;
+    position: relative;
+}
+.recommend>.mouse div>img{
+    width: 150px;
+    height: 160px;
+    margin-left: 30px;
+}
+.recommend>.mouse div>.xianl{
+    font: 14px/24px '微软雅黑';
+    color: #fff;
+    text-align: center;
+    width: 72px;
+    height: 24px;
+    background: url(../images/member5_2.gif) no-repeat 0px 0px;
+}
+.recommend>.mouse div h1,p,span{
+    text-indent: 10px;
+}
+.recommend>.mouse>div>h1{
+    color: #333;
+    text-align: center;
+    font: 14px/24px '微软雅黑';
+}
+.recommend>.mouse>div>p{
+    font-size: 14px;
+    color: #f2290d;
+    text-align: center;
+}
+.recommend>.mouse>div>p>span{
+    font-size: 20px;
+    color: #f4280f;
+}
+.recommend>.mouse>div>span{
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    background: #ff6600;
+    text-align: center;
+    cursor: pointer;
+     font: 18px/30px '微软雅黑';
+    color: #fff;
+    margin:-20px 40px;
+}
+
+/* 广告 */
+.guang>img{
+    margin: 30px 0px;
+    overflow: hidden;
+}
+/* 会员特价 */
+.recommend>.mouse .hu{
+    font: 14px/24px '微软雅黑';
+    color: #fff;
+    text-align: center;
+    height: 24px;
+    width: 94px;
+    background: url(../images/member7_1.gif) no-repeat 0px 0px;
+}
+.recommend>.mouse div>div{
+    width: 210px;
+    height: 50px;
+    position: absolute;;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    font: 16px/50px '微软雅黑';
+   background:#f60 url(../images/go.gif) no-repeat 24px 12px;
+   display: none;
+   cursor: pointer;
+}
+.recommend>.mouse>div:hover>div{
+    display: block;
+    
+}
+
+/* 会员特权 */
+.recommend>.tej img{
+    width: 360px;
+    height: 220px;
+}
+.recommend>.tej h1{
+    color: #262626;
+    font: 22px/30px '微软雅黑';
+}
+.recommend>.tej div{
+    float: left;
+    margin: 40px 30px 40px 10px;
+}
+.recommend>.tej p{
+    color: #737373;
+    font: 14px/30px '微软雅黑';
+}
+
+

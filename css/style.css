@@ -1,0 +1,62 @@
+/*定义css变量*/
+:root{ 
+	--mywidth: 998px;
+	--myheight: 430px;
+}
+ul{
+	list-style: none;
+}
+.carousel-content{
+	width: var(--mywidth);
+	height: var(--myheight);
+	position: relative;
+	overflow: hidden;
+	-border-radius:50px;/* 设置边框图片圆角 */
+}
+.carousel{
+	height: var(--myheight);
+	position: absolute;
+}
+.carousel li{
+	float: left;
+}
+.carousel li,.carousel li img{
+	width: var(--mywidth);
+	height: var(--myheight);
+}
+.img-index{
+	position: absolute;
+    bottom: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img-index li{
+	float: left;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 12px;
+    cursor: pointer;
+    margin: 0 3px;
+    color: #fff;
+}
+.img-index li.js_index,.img-index li:hover{
+	background-color: rgba(0,0,0,0.7);
+}
+.carousel-prev,.carousel-next{
+	position: absolute;
+	display: inline-block;
+	top: 45%;
+	cursor: pointer;
+    display: none;
+}
+.carousel-prev{
+	left: 0;
+}
+.carousel-next{
+	right: 0;
+}

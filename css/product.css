@@ -1,0 +1,334 @@
+#search>.log>p {
+    height: 34px;
+    background: #93d470 url(../images/product1_1.gif) no-repeat 140px center;;
+}
+
+/* 轮播图 */
+#slideshow>.rex{
+    width: 200px;
+    height: 428px;
+  
+}
+#slideshow>.rex>p{
+    height: 30px;
+    line-height: 30px;
+    text-indent: 1em;
+    background: #93d470;
+    color: #f8fdf6;
+    font-size: 16px;
+}
+.rex li{
+    height: 42px;
+    overflow: hidden;
+    cursor: pointer;
+    border-bottom: 2px solid #ccc;
+}
+.rex li>p{
+    float: right;
+    background: #ff6600;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.rex li:nth-child(n+4)>p{
+    background: #ccc;
+}
+.rex li>img{
+    width: 90px;
+    height: 105px;
+    margin-top: 20px;
+}
+.rex li>span{
+    color: #333333;
+    font-size: 14px;
+    width: 94px;
+    height: 100px;
+    float: right;
+    margin: 24px -20px 0px 0px;
+}
+li.cong{
+    height: 130px;
+}
+
+
+/* 广告 */
+.advertising>img{
+    width: 1200px;
+    height: 90px;
+
+}
+
+/* 新书上架 */
+#book>.xin{
+    border-bottom: 6px solid #f60;
+    width: 906px;
+    font-size:20px;
+    color: #333;
+}
+#book>.xin>h1:first-letter{
+    color: #fff;
+    background: #ff6600;
+}
+.lef{
+    width: 900px;
+    height: 500px;
+    border: 2px solid #e6e6e6;
+    border-top:0 ;
+}
+.lef div{
+    width: 180px;
+    height: 240px;
+    text-indent: 2em;
+    float: left;
+}
+.lef img{
+    margin-top:10px;
+}
+.lef h1{
+    color: #494949;
+    line-height: 30px;
+}
+.lef p{
+    color: #7f7f7f;
+}
+.lef span{
+    font-size: 13px;
+    color: #fa3431;
+    margin:0px 10px 0px 24px ;
+}
+.lef del{
+    font-size: 13px;
+    color: #b8b8b8;
+}
+#book .dexter{
+    width: 278px;
+    height: 510px;
+    border: 1px solid #e6e6e6;
+    margin-top:-6px ;
+}
+#book .dexter>h1{
+    color: #808080;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+}
+#book .dexter>div{
+    font-size:16px ;
+    line-height: 40px;
+    width: 258px;
+    height: 40px;
+    float: right;
+    border: 1px solid #e6e6e6;
+    border-left:0 ;
+}
+.dexter{
+    width: 278px;
+    height: 400px;
+   border: 1px solid #e6e6e6;
+    -margin-top:35px ;
+}
+.dexter>h1{
+    color: #808080;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.dexter dl>dt{
+    height: 40px;
+    line-height: 40px;
+    color: #4d4d4d;
+    font-size: 16px;
+    border-bottom:2px solid #ccc ;
+    cursor: pointer;
+}
+.dexter dl>dd{
+    border-bottom:2px solid #ccc ;
+    display: none;
+    
+}
+.dexter dl>dd>p{
+    color: #404040;
+    font-size: 14px;
+    float: right;
+    width: 140px;
+
+
+}
+
+
+
+/* 独家提供 */
+#exclusive{
+    margin-top: 50px;
+}
+#exclusive>.to{
+    border-bottom: 6px solid #f60;
+    font-size:26px;
+    color: #333;
+}
+#exclusive>.to>h1:first-letter{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: #ff6600;
+}
+
+#exclusive>.to>p{
+    display: inline-block;
+    float: right;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+}
+#exclusive>.to>.huo{
+    background: #f60;
+    color: #fff;
+}
+#exclusive .sss{
+    width: 1200px;
+    height: 600px;
+    border: 1px solid red;
+}
+#exclusive .likeee{
+    width: 1200px;
+}
+#exclusive .likeee>div{
+    margin: 0px 4px 10px 16px;
+}
+
+#exclusive .zhekou{
+    width: 1200px;
+    border: 1px solid #ccc;
+}
+#exclusive .zhekou>div{
+    width: 210px;
+    height: 258px;
+    float: left;
+    margin-right:30px ;
+}
+#exclusive .zhekou>div>img:first-child{
+    margin: 6px 30px 0px 30px;
+    width: 150px;
+    height: 150px;
+}
+#exclusive.zhekou>.no{
+    background: #f2f2f2;
+}
+#exclusive .zhekou>div>h1{
+    color: #757575;
+    text-indent: 2em;
+    line-height: 20px;
+}
+#exclusive .zhekou>div>p{
+    text-indent: 24px;
+    text-align: left;
+    width: 210px;
+    height: 20px;
+    font-size: 14px;
+    background: url(../images/product3_5.gif) no-repeat 68px -20px;
+}
+#exclusive .zhekou>div>span{
+    margin-left:24px ;
+    color: #f22a10;
+    line-height: 40px;
+    margin-right:20px ;
+    font-size: 18px;
+}
+#exclusive .zhekou>div>del{
+    color: #c0c0c0;
+    font-size: 18px;
+}
+#exclusive .xn>div{
+    display: none;
+    float: left;
+}
+#exclusive .xn>div.cll{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 猜你喜欢 */
+#like{
+    margin-top: 50px;
+
+}
+#like>.to{
+    border-bottom: 6px solid #f60;
+    font-size:26px;
+    color: #333;
+}
+#like>.to>p:first-letter{
+    color: #fff;
+    background: #ff6600;
+}
+#like>.to>h1{
+    float: right;
+    color: #458bfd;
+    font-size: 16px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: right;
+    background: url(../images/product4_1.gif) no-repeat  7px 7px ;
+}
+#like>.lef{
+    height: 500px;
+    width: 1200px;
+}
+#like>.lef>div{
+margin-right:20px ;
+}
+/* 人文社科精选 */
+#cultural>div{
+    float: left;
+    margin:40px 0px 20px 0px ;
+}
+#cultural>div>h1{
+    font-size: 16px;
+    color: #333;
+    margin: 6px 0px 0px 12px;
+}
+#cultural>div>span{
+    font-size: 13px;
+    color: #9b9b9b;
+    line-height: 30px;
+    margin-left:12px ;
+}
+
+#cultural>div>p{
+    width: 100px;
+    height: 20px;
+    color: #f8eaf9;
+    background: #fc312a;
+    border-radius:20px ;
+    margin: 6px 0px 0px 12px;
+    text-align: center;
+}
+#cultural>img{
+    width: 76px;height: 90px;
+    float: left;
+    margin:40px  6px 20px 4px;
+}
+
+
+
+

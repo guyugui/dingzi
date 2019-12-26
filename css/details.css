@@ -1,0 +1,367 @@
+#search>.log>p {
+    height: 34px;
+    background: #93d470 url(../images/product1_1.gif) no-repeat 140px center;;
+}
+/* 图书 */
+#books{
+    min-width: 1200px;
+    height: 600px;
+    background: #f2f2f2;
+}
+#books>.tou{
+    height: 50px;
+}
+#books>.tou>span{
+    color: #8f8f8f;
+    font-size: 16px;
+    line-height: 60px;
+}
+#books>.tou>span:first-child{
+    font-size: 22px;
+    color: #333;
+}
+
+
+
+#books>.but{
+    height: 510px;
+    width: 1200px;
+    background: #fff;
+}
+#books>.but>.fan>p{
+    text-align: center;
+    color: #646464;
+    line-height: 30px;
+}
+#books .him{
+   margin-left:50px ;
+}
+#books .him>h1{
+    text-indent: 20px;
+    color: #343434;
+    font: 20px/0 '微软雅黑';
+    margin: 30px 0px 20px 0px ;
+}
+#books .him>p{
+    text-indent: 20px;
+    font: 16px/2em '微软雅黑';
+    color: #fb2f2e;
+}
+#books .him>span{
+    display: inline-block;
+    text-indent: 20px;
+    color: #818181;
+    font: 14px/2em '微软雅黑';
+}
+#books .him>.cost{
+    margin-top:20px ;
+    width: 750px;
+    height: 140px;
+    background: #f5f5f5;
+}
+#books .him>.cost>p{
+    display: inline-block;
+    text-indent: 20px;
+    color: #6c6c6c;
+    font: 15px/40px '微软雅黑';
+}
+#books .him>.cost>p>span{
+    color: #f80e0d;
+    font-size:18px ;
+}
+#books .him>.cost>span{
+    color: #f70d0e;
+    font-size: 15px;
+}
+#books .cost>img{
+    margin: 6px;
+}
+#books .him .shop{
+    font-size:16px ;
+    color: #4c4c4c;
+}
+#books .him .shop>p{
+    text-indent: 20px;
+    line-height: 70px;
+}
+#books .him .shop>div{
+    height: 30px;
+    width: 100px;
+    border: 2px solid #ccc;
+    text-align: center;
+    line-height: 30px;
+    margin: 20px 4px 0px 2px ;
+    cursor: pointer;
+}
+#books .him .shop>.noe{
+    border: 2px solid #f60;
+    background: url(../images/details1_2.gif) no-repeat  86px 18px ;
+}
+
+#books .cas>div{
+    width: 100px;
+    height: 40px;
+    color: #7f7f7f;
+    font-size: 20px;
+    margin:20px 0px 0px 00px;
+    border: 1px solid #ccc;
+
+}
+#books .cas>div>span{
+    display: inline-block;
+    margin: 10px;
+}
+#books .cas>div>div{
+    text-align: center;
+    color: #7f7f7f;
+    width: 20px;
+    height: 18px;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    float: right;
+    cursor: pointer;
+}
+#books .cas>div>div:nth-child(3){
+    margin-top: -26px;
+    margin-left: 30px;
+}
+#books .him .cas>div>button:last-child{
+    margin-top:-26px ;
+}
+#books .him .cas>p{
+    width: 190px;
+    height: 60px;
+    border-radius:5px;
+    background: #f60;
+    line-height: 60px;
+    text-align: center;
+    margin: 10px 0px 0px 20px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+}
+#books .him>div:last-child{
+    margin: 50px 0px 0px 20px;
+    color: #8a8a8a;
+    font-size: 14px;
+}
+/* 人气单品 
+样式在common.css里面注意看
+================================================================= */
+
+/* 看啦又看 */
+#lookk{
+    margin-top:48px ;
+}
+#lookk>.loo{
+    width: 318px;
+    height: 2200px;
+    border: 2px solid #ccc;
+}
+#lookk>.loo>p{
+    color: #666666;
+    height: 40px;
+    font: 20px /40px '微软雅黑';
+    background: #f4f4f4;
+    text-indent: 1em;
+}
+      /* 左边内容 */
+#lookk .zhekou>div{
+    width: 250px;
+    height: 258px;
+    float: left;
+    margin-right:30px ;
+    border-bottom:1px solid #ccc ;
+    margin: 6px 34px;
+}
+#lookk .zhekou>div>img:first-child{
+    margin: 6px 30px 0px 30px;
+    width: 150px;
+    height: 150px;
+}
+#lookk .zhekou>div>h1{
+    color: #757575;
+    text-indent: 2em;
+    line-height: 20px;
+}
+#lookk .zhekou>div>p{
+    text-indent: 24px;
+    text-align: left;
+    width: 210px;
+    height: 20px;
+    font-size: 14px;
+    background: url(../images/product3_5.gif) no-repeat 68px -20px;
+}
+#lookk .zhekou>div>span{
+    margin-left:24px ;
+    color: #f22a10;
+    line-height: 40px;
+    margin-right:20px ;
+    font-size: 18px;
+}
+#lookk .zhekou>div>del{
+    color: #c0c0c0;
+    font-size: 18px;
+}  
+        /* 右边内容 */
+#lookk>.trade{
+    width: 866px;
+    margin-left:10px ;
+}
+#lookk .shan{
+    border-bottom: 6px solid #f60;
+}
+#lookk .shan>p{
+    float: left;
+    width: 150px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    color: #4c4c4c;
+    font-size: 22px;
+    cursor: pointer;
+}
+#lookk .shan>.pin{
+    background: #f60;
+    color: #fff;
+}
+
+/* 评论介绍已经隐藏 */
+#lookk .good>div{
+    float: left;
+}
+#lookk .good>div:first-child{
+    font-size: 50px;
+    color: #f9380d;
+    text-align: right;
+    margin: 40px 64px 0px 36px;
+}
+#lookk .good>div:first-child>p{
+    font-size: 18px;
+    color: #999999;
+}
+#lookk .good>div:nth-child(2){
+    text-align: left;
+    width: 240px;
+    margin: 40px 0px 0px 36px;
+
+}
+#lookk .good>div:nth-child(2)>p{
+    display: inline-block;
+    float: left;
+    margin-top: 12px;
+}
+#lookk .good>div:nth-child(2)>img{
+    display: inline-block;
+    float: right;
+    margin-top: 12px;
+}
+#lookk .good>div:nth-child(3){
+    width: 340px;
+    margin:40px 0px 0px 40px;
+}
+#lookk .good>div:nth-child(3)>p{
+    margin:10px 40px 20px 0px ;
+    float: left;
+}
+#lookk .good>div:nth-child(4){
+    margin-top:50px ;
+    background: #f5f5f5;
+    height: 30px;
+    width: 866px;
+}
+#lookk .good>div:nth-child(4)>p{
+    float: left;
+    line-height: 30px;
+    margin: 0px 15px;
+    font-size: 16px;
+    color: #666;
+}
+#lookk .good>div:nth-child(4)>.ove{
+    color: #fa360c;
+}
+#lookk .review{
+    border-bottom: 1px solid #ccc;
+}
+
+#lookk .review>div{
+    float: left;
+    height: 140px;
+}
+#lookk .review>div:first-child{
+    margin: 20px 40px 0px 20px;
+    color: #a6a6a6;
+}
+#lookk .review>div:first-child>p{
+    width: 120px;
+    height: 20px;
+    line-height: 66px;
+    background: url(../images/product3_5.gif) no-repeat 0px -20px;
+}
+#lookk .review>div:first-child>h1{
+    margin-top:26px ;
+}
+#lookk .review>div:nth-child(2){
+    width: 455px;
+    height: 40px;
+
+}
+#lookk .review>div:nth-child(2)>p{
+    margin-top:26px ;
+    font-size: 14px;
+    color: #666;
+    line-height: 30px;
+}
+#lookk .review>div:nth-child(3){
+    margin-top: 20px;
+}
+#lookk .review>div:nth-child(3)>span{
+    color: #707070;
+
+}
+#lookk .review>div:nth-child(3)>p{
+    color:#f7c54a;
+    font-size:14px  
+}
+#lookk .tiao>div{
+    float: left;;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 30px;
+    margin: 30px 5px;
+    cursor: pointer;
+}
+#lookk .tiao>div:last-child{
+    width: 90px;
+}
+#lookk .tiao>div:first-child{
+    margin-left:350px ;
+    border: none;
+    color: #f60;
+}
+#lookk .tiao>div:nth-child(7){
+    border: none;
+}
+
+
+/* 商品介绍 */
+#lookk .tu>img{
+    width: 750px;
+    height: 2950px;
+   text-align: center;
+   margin: 10px 60px 40px 60px;
+}
+#lookk .tu>p{
+    color: #4d4d4d;
+    font-size: 16px;
+    margin:0px 60px 0px 60px ;
+    line-height: 30px;
+}
+#lookk .tu>p:last-child{
+    margin-bottom: 50px;
+}
+
+
+
